@@ -11,6 +11,7 @@ namespace AutoGlass.API.Infra
         {
             CreateMap<Product, ProductDTO>();
             CreateMap<ProductCreateDTO, Product>();
+            CreateMap<ProductUpdateDTO, Product>();            
             CreateMap<ProductFilterDTO, Product>();
 
             CreateMap<Supplier, SupplierDTO>();

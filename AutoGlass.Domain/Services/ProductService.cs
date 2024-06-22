@@ -68,8 +68,6 @@ namespace AutoGlass.Domain.Services
                 throw new BusinessException("Data de expiração deve ser maior que a data de Fabricação.");
             }
 
-            product.Active = true;
-
             _productRepository.Create(product);
             _productRepository.Save();
 
@@ -78,7 +76,7 @@ namespace AutoGlass.Domain.Services
 
         public long Update(Product product)
         {
-            if (!_productRepository.GetById(product.Id).Any())
+            if (!_productRepository.GetById(product.Id).Any(x => x.Active == true))
             {
                 throw new BusinessException("Produto não encontrado.");
             }

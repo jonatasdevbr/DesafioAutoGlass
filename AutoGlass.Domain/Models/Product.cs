@@ -11,7 +11,7 @@ namespace AutoGlass.Domain.Models
         public string Description { get; set; }
 
         [Required]
-        public bool? Active { get; set; }
+        public bool? Active { get; set; } = true;
 
         public DateTime? Manufacture { get; set; }
 

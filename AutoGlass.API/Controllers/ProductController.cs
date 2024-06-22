@@ -55,7 +55,7 @@ namespace AutoGlass.API.Controllers
         [HttpPut]
         public ActionResult<ProductDTO> Update(ProductUpdateDTO product)
         {
-            var rtn = _productService.Create(_mapper.Map<Product>(product));
+            var rtn = _productService.Update(_mapper.Map<Product>(product));
 
             return Ok(rtn);
         }
