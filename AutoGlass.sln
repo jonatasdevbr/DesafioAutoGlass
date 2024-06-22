@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass.API", "AutoGlass.API\AutoGlass.API.csproj", "{FB1D4D1B-CBA5-4EBD-9431-ED5585F9430D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass.Domain", "AutoGlass.Domain\AutoGlass.Domain.csproj", "{671918B3-7E43-468D-A941-4B822517CC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass.Infra", "AutoGlass.Infra\AutoGlass.Infra.csproj", "{DA30A535-8412-4F7E-AC37-5547BD1F6879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass.Application", "AutoGlass.Application\AutoGlass.Application.csproj", "{D06EC042-A68F-4616-A628-67060807D495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB1D4D1B-CBA5-4EBD-9431-ED5585F9430D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1D4D1B-CBA5-4EBD-9431-ED5585F9430D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1D4D1B-CBA5-4EBD-9431-ED5585F9430D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1D4D1B-CBA5-4EBD-9431-ED5585F9430D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671918B3-7E43-468D-A941-4B822517CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671918B3-7E43-468D-A941-4B822517CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671918B3-7E43-468D-A941-4B822517CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671918B3-7E43-468D-A941-4B822517CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA30A535-8412-4F7E-AC37-5547BD1F6879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA30A535-8412-4F7E-AC37-5547BD1F6879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA30A535-8412-4F7E-AC37-5547BD1F6879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA30A535-8412-4F7E-AC37-5547BD1F6879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06EC042-A68F-4616-A628-67060807D495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06EC042-A68F-4616-A628-67060807D495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06EC042-A68F-4616-A628-67060807D495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06EC042-A68F-4616-A628-67060807D495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65AF8CFE-86F3-4EC9-9E70-1556B69417F7}
+	EndGlobalSection
+EndGlobal
